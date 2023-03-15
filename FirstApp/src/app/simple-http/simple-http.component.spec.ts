@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChannelComponent } from './channel.component';
+import { SimpleHttpComponent } from './simple-http.component';
 
-describe('ChannelComponent', () => {
-  let component: ChannelComponent;
-  let fixture: ComponentFixture<ChannelComponent>;
+describe('SimpleHttpComponent', () => {
+  let component: SimpleHttpComponent;
+  let fixture: ComponentFixture<SimpleHttpComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ChannelComponent ]
+      declarations: [ SimpleHttpComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ChannelComponent);
+    fixture = TestBed.createComponent(SimpleHttpComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

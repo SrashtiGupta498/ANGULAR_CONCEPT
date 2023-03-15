@@ -1,5 +1,5 @@
-import { Component ,OnInit,Input,Output,ViewEncapsulation} from '@angular/core';
-import { EventEmitter } from 'node:events';
+import { Component ,OnInit,Input,Output,ViewEncapsulation,EventEmitter} from '@angular/core';
+// import { EventEmitter } from 'node:events';
 
 @Component({
   selector: 'app-trending',
